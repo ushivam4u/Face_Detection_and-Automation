@@ -1,0 +1,2 @@
+# Face_Detection_and-Automation
+Program which when  recognize your face then -  👉 It send mail to your mail id by writing this is face of your_name.  👉 Second it send whatsapp message to your friend which can be anything.   📌 When it recognize second  face, it can be your friend or family members face. It creates EC2 instance in the AWS using CLI and then creates 5 GB EBS volume and attach it to the instance. 
