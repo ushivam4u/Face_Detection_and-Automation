@@ -4,7 +4,7 @@ def whatsapp():
     account_sid = os.environ['TWILIO_ACCOUNT_SID']
     auth_token = os.environ['TWILIO_AUTH_TOKEN'] 
     client = Client(account_sid, auth_token) 
-    ss=['whatsapp:+919105088479','whatsapp:+919760105131','whatsapp:+918961881014','whatsapp:+918276972706','whatsapp:+918373969216']
+    ss=['whatsapp:+9191050xxxxx','whatsapp:+919760xxxxxx','whatsapp:+918961xxxxxx','whatsapp:+918276xxxxxx','whatsapp:+918373xxxxxx']
     for i in ss:
         message = client.messages.create( 
                               from_='whatsapp:+14155238886',  
